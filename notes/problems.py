@@ -1,0 +1,3 @@
+# day01_variables.py -> 
+# day02_condtiotions -> Check if age >= 18 → “Eligible to vote”
+# day03_loops.py     -> Print the multiplication table of 7,  Ask user for a number and print numbers from 1 to that number

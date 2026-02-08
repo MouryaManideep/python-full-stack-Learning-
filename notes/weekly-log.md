@@ -5,6 +5,13 @@
 - Set up project structure in VS Code
 
 ### Day 2
+
 - Learned if, elif, else statements
 - Practiced comparison operators
 - Understood indentation-based logic
+
+### Day 3
+
+- Learned for and while loops
+- Used range() for controlled iteration
+- Practiced accumulation logic with loops
