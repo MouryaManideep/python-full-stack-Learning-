@@ -3,3 +3,8 @@
 - Learned Python variables and basic data types
 - Used type() to understand objects
 - Set up project structure in VS Code
+
+### Day 2
+- Learned if, elif, else statements
+- Practiced comparison operators
+- Understood indentation-based logic
