@@ -15,3 +15,9 @@
 - Learned for and while loops
 - Used range() for controlled iteration
 - Practiced accumulation logic with loops
+
+### Day 4
+- Learned how to define and call functions
+- Used parameters and return values
+- Converted loop logic into reusable functions
+
