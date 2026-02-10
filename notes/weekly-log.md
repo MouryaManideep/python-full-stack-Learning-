@@ -21,3 +21,7 @@
 - Used parameters and return values
 - Converted loop logic into reusable functions
 
+### Day 5
+- Learned basics of classes and objects
+- Used __init__ and self
+- Created methods inside a class
