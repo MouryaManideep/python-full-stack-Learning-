@@ -25,3 +25,11 @@
 - Learned basics of classes and objects
 - Used __init__ and self
 - Created methods inside a class
+
+### Day 6
+- Combined Python basics, loops, functions, and OOP
+- Practiced writing a small end-to-end program
+- Gained confidence connecting concepts
+
+### practice
+- Hacker Rank Find a string problem
