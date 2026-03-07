@@ -17,19 +17,25 @@
 - Practiced accumulation logic with loops
 
 ### Day 4
+
 - Learned how to define and call functions
 - Used parameters and return values
 - Converted loop logic into reusable functions
 
 ### Day 5
+
 - Learned basics of classes and objects
-- Used __init__ and self
+- Used **init** and self
 - Created methods inside a class
 
 ### Day 6
+
 - Combined Python basics, loops, functions, and OOP
 - Practiced writing a small end-to-end program
 - Gained confidence connecting concepts
 
 ### practice
+
 - Hacker Rank Find a string problem
+- Hacker Rank No idea! Problem
+
