@@ -6,10 +6,24 @@
     <title>Search Image</title>
   </head>
   <body>
+    <div id="navbar"></div>
+
+    <script>
+      fetch("base.html")
+        .then((res) => res.text())
+        .then((data) => {
+          document.getElementById("navbar").innerHTML = data;
+        });
+    </script>
+    <br /><br />
+
     <form action="https://www.google.com/search">
       <input type="text" name="q" />
-      <input type="hidden" name="tbm" value="isch" />
-      <input type="submit" value="Google it" />
+      <input type="hidden" name="udm" value="2" />
+      <input type="submit" value="Images" />
     </form>
   </body>
 </html>
+
+<!-- udm = 7 videos -->
+<!-- <input type="hidden" name="tbm" value="nws" /> -->

@@ -1,18 +1,40 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Advanced Search</title>
-    </head>
-    <body>
-        <form action="https://www.google.com/search">
-            <input type="text" name="q">
-            <input type="text" name="as_epq" placeholder="Exact words or phrase">
-            <input type="text" name="as_oq" placeholder="Any of these words">
-            <input type="text" name="as_eq" placeholder="None of these words">
-            <input type="text" name="as_filetype" placeholder="File type">
-            <input type="submit" value="Google it">
-        </form>
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google Advanced Search</title>
+  </head>
+
+  <body>
+    <div id="navbar"></div>
+
+    <script>
+      fetch("base.html")
+        .then((response) => response.text())
+        .then((html) => (document.getElementById("navbar").innerHTML = html));
+    </script>
+    <br /><br />
+
+    <h2>Google Advanced Search</h2>
+
+    <form action="https://www.google.com/search" method="GET">
+      <label>Search Query</label><br />
+      <input type="text" name="q" /><br /><br />
+
+      <label>All these words</label><br />
+      <input type="text" name="as_q" placeholder="machine learning tutorial"/><br /><br />
+
+      <label>Exact word or phrase</label><br />
+      <input type="text" name="as_epq" placeholder="artificial intelligence"/><br /><br />
+
+      <label>Any of these words</label><br />
+      <input type="text" name="as_oq" placeholder="python ml" /><br /><br />
+
+      <label>None of these words</label><br />
+      <input type="text" name="as_eq" placeholder="beginner" /><br /><br />
+
+      <input type="submit" value="Search">
+    </form>
+  </body>
 </html>
