@@ -1,3 +1,5 @@
+# HEAD
+
 # Google Search URL Examples
 
 This file shows how **Google search URLs work** and how **query parameters** are used in different types of searches.
@@ -78,4 +80,8 @@ Key parameters:
 
 - `?` starts the query parameters
 - `&` separates parameters
-- `parameter=value` defines search behavior
+- # `parameter=value` defines search behavior
+
+# MouryaManideep
+
+<!-- - 51793a532a8f8c58932792b8e9b4574f180e3e4f -->

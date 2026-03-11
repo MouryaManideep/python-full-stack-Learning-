@@ -3,13 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Search News</title>
+    <title>Search Image</title>
   </head>
   <body>
     <div id="navbar"></div>
 
     <script>
-      fetch("base.html")
+      fetch("index.html")
         .then((res) => res.text())
         .then((data) => {
           document.getElementById("navbar").innerHTML = data;
@@ -19,8 +19,11 @@
 
     <form action="https://www.google.com/search">
       <input type="text" name="q" />
-      <input type="hidden" name="tbm" value="nws" />
-      <input type="submit" value="News" />
+      <input type="hidden" name="udm" value="2" />
+      <input type="submit" value="Images" />
     </form>
   </body>
 </html>
+
+<!-- udm = 7 videos -->
+<!-- <input type="hidden" name="tbm" value="nws" /> -->

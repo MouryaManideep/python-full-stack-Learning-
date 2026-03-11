@@ -34,3 +34,4 @@ for i in range(1, number+1):
     space -= 1
     print(" " * space + "*" * star)
     star = (2*i)+1
+

@@ -4,4 +4,11 @@
 
 # main() # Calling main function
 
-"""guess"""
+"""Functions in Python"""
+
+def square(num):
+    """This function returns the square of a number"""
+    return num * num
+
+# for i in range(1, 11):
+#     print(f"The square of {i} is {square(i)}")
