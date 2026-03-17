@@ -9,4 +9,4 @@ def mourya(request):
     return HttpResponse("Hello Mourya")
 
 def greet(request, name):
-    return HttpResponse(f"Heloo  {name}! - greet")
+    return render(request, "hello/greet.html", {"name": name.capitalize()})
