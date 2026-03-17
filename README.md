@@ -16,3 +16,12 @@ Days 17–20 (REST APIs + DB CRUD)
 
 Days 21–28 (Frontend basics + Full stack project)
 👉 CS50 Web Programming covers HTML/CSS, Django, SQL, APIs and end-to-end project work.
+
+## Django
+
+    1.django-admin startproject lecture3 . // single folder lecture3 & manage.py
+    django-admin startproject lecture3 for lecture3/lecture3 & manage.py
+
+    2.To run servre : python manage.py runserver
+
+    3.To create an django app : python manage.py startapp appname
