@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        /* The specificity of this selector is 0  */
+        * {
+            background-color: black;
+        }
+
         /* The specificity of this selector is 1  */
         h1 {
             color: aqua;
@@ -35,12 +40,18 @@
         a.harryclass.rohan-class[href]:hover {
             color: blueviolet;
         }
+
+        /* The specificity of this selector !important 10000*/
+        h1 {
+            color: rgb(0, 136, 136) !important;
+        }
     </style>
 </head>
 
 <body>
     <div>
-        <h1 class="yellow cred cpurple" data-x="a">CSS Specificity</h1>
+        /* The specificity of inline selector is 1000 */
+        <h1 style="background-color: rgb(255, 255, 255);" class="yellow cred cpurple" data-x="a">CSS Specificity</h1>
     </div>
 </body>
 
