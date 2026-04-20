@@ -1,0 +1,51 @@
+body {
+    background-color: gray;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+.card {
+    margin: 13px;
+    background-color: white;
+    border-radius: 9px;
+    width : 272px;
+    height : 396px;
+}
+
+.image {
+    padding: 5px;
+}
+
+.image img {
+    border-radius: 11px;
+}
+
+.capsules {
+    padding: 3px 3px 3px 14px;
+}
+
+.capsules span {
+    border: 1px gray solid;
+    padding: 4px 7px 4px 7px;
+    border-radius: 7px;
+}
+
+.content {
+    padding: 0px 14px 0px 14px;
+}
+
+.content p {
+    font-size: 10px;
+}
+
+.button {
+    text-align: center;
+}
+
+.button button {
+    border: none;
+    border-radius: 16px;
+    padding: 9px 12px 9px 12px;
+    background-color: rgb(217, 235, 243);
+}
