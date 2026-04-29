@@ -1,20 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Lists</title>
-    </head>
-    <body>
-        An Ordered list:
-        <ol>
-            <li>First item</li>
-            <li>Second item</li>
-            <li>Third item</li>
-        </ol>
-        An Unordered list:
-        <ul>
-            <li>One item</li>
-            <li>Two item</li>
-            <li>Three item</li>
-        </ul>
-    </body>
+
+<head>
+    <title>Lists</title>
+    <style>
+        html, body {
+    margin: 0;
+    padding-left: 5px;
+}
+
+h6 {
+    font-size: 16px;
+    color: blue;
+    text-transform: uppercase;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dl,
+dd {
+  font-size: 0.9rem;
+}
+
+dd {
+  margin-bottom: 1em;
+}
+
+dl {
+    margin-bottom: 2em
+}
+
+dt::after {
+  content: ": "
+}
+    </style>
+</head>
+
+<body>
+    An Ordered list:
+    <ol>
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+    </ol>
+    An Unordered list:
+    <ul>
+        <li>One item</li>
+        <li>Two item</li>
+        <li>Three item</li>
+    </ul>
+    An Description lists:
+
+    <h6>Multiple terms and descriptions</h6>
+    <dl>
+        <dt>Title</dt>
+        <dd>Description</dd>
+
+        <dt>Title2</dt>
+        <dd>Description</dd>
+
+        <dt>Title3</dt>
+        <dd>Description</dd>
+    </dl>
+
+    <h6>Multiple terms, single description</h6>
+    <dl>
+        <dt>Title</dt>
+        <dt>sub Title</dt>
+        <dd>Description</dd>
+
+        <dt>Title2</dt>
+        <dt>sub Title</dt>
+        <dd>Description</dd>
+
+        <dt>Title3</dt>
+        <dt>sub Title</dt>
+        <dd>Description</dd>
+    </dl>
+
+    <h6>Single term, multiple descriptions</h6>
+    <dl>
+        <dt>Title</dt>
+        <dd>Description</dd>
+        <dd>sub Description</dd>
+
+        <dt>Title2</dt>
+        <dd>Description</dd>
+        <dd>sub Description</dd>
+
+        <dt>Title3</dt>
+        <dd>Description</dd>
+        <dd>sub Description</dd>
+    </dl>
+
+    <h6>key-value pairs</h6>
+    <h3>Garfield</h3>
+    <dl>
+        <dt>Name</dt>
+        <dd>Garfield</dd>
+        <dt>Born</dt>
+        <dd>19 June 1978</dd>
+        <dt>Color</dt>
+        <dd>Orange</dd>
+        <dt>Loves</dt>
+        <dd>Lasagna</dd>
+        <dt>Hates</dt>
+        <dd>Mondays</dd>
+        <dt>Personality</dt>
+        <dd>Cynical</dd>
+    </dl>
+
+    
+    
+
+
+</body>
+
 </html>
