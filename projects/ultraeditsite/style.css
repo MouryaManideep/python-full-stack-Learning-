@@ -6,6 +6,10 @@
 }
 
 .container {
+    padding: 15px 100px 0px 100px;
+}
+
+.navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -13,7 +17,7 @@
     background-color: #f6f6f6;
     margin: 4px ;
     border: 2px solid black;
-    height: 10vh;
+    height: 8vh;
 }
 
 .logo {
@@ -47,4 +51,32 @@ ol {
 
 .search {
     height: 16px;
+}
+
+.grid {
+    margin-top: 450px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.item {
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F2F0EC;
+    width: 330px;
+    height: 140px;
+    margin: 10px;
+}
+
+.item_content {
+    text-align: center;
+}
+
+.item_button {
+    border-radius: 7px;
+    background-color: #ffd741;
+    margin-top: 20px;
+    padding: 8px 16px 8px 16px;
 }
