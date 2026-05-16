@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background-color: #f6f6f6;
+    margin: 4px ;
+    border: 2px solid black;
+    height: 10vh;
+}
+
+.logo {
+    height: 62px;
+    display: block;
+}
+
+ol {
+    list-style: none;
+}
+
+.nav_items > ol {
+    display: flex;
+    gap: 24px;
+}
+
+.user_actions {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.download {
+    padding: 10px 23px;
+    background-color: #ffd741;
+}
+
+.language {
+    padding: 10px 23px;
+}
+
+.search {
+    height: 16px;
+}
